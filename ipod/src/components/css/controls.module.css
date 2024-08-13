@@ -1,0 +1,62 @@
+/* Controls Component */
+.controls {
+    background-color: rgb(158, 153, 153);
+    width: 215px;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 7px 7px;
+}
+.wheel {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.buttons {
+    position: absolute;
+    font-weight: 700;
+    font-size: larger;
+    opacity: 0.5;
+    width: 40px;
+    height: 40px;
+    align-self: center;
+}
+.menuBtn {
+    cursor: pointer;
+    top: 20px;
+}
+.leftBtn {
+    left: 13px;
+}
+.rightBtn {
+    right: 13px;
+}
+.bottomBtn {
+    bottom: 13px;
+}
+
+.okBtn {
+    background-color: rgb(130, 160, 82);
+    width: 37%;
+    height: 37%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.okBtn:hover,
+.buttons:hover {
+    color: red;
+    transform: scale(0.9);
+}
